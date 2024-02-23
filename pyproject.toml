@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "HTS_doseresponse"
-version = "0.0.3"
+version = "0.0.4"
 description = "Dose Response Curve Fitting"
 readme = "README.md"
 authors = [{ name = "Scott McPhee", email = "sahmcphee@gmail.com" }]
@@ -21,7 +21,7 @@ keywords = ["IC50", "biochemistry", "pharmacology"]
 dependencies = [
     "pandas>=1.5.3",
 	"seaborn>=0.13.1",
-	"scipy>1.11.4",
+	"scipy>=1.11.4",
     "tomli; python_version < '3.11'",
 ]
 requires-python = ">=3.10.12"
