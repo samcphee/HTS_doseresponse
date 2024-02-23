@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "HTS_doseresponse"
-version = "0.0.4"
+version = "0.0.5"
 description = "Dose Response Curve Fitting"
 readme = "README.md"
 authors = [{ name = "Scott McPhee", email = "sahmcphee@gmail.com" }]
