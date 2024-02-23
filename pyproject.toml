@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "HTS_doseresponse"
-version = "0.0.1"
+version = "0.0.2"
 description = "Dose Response Curve Fitting"
 readme = "README.md"
 authors = [{ name = "Scott McPhee", email = "sahmcphee@gmail.com" }]
@@ -20,21 +20,19 @@ classifiers = [
 keywords = ["IC50", "biochemistry", "pharmacology"]
 dependencies = [
     "pandas>1.5.3",
-    "numpy>1.25.2",
+    "numpy>1.24.3",
 	"matplotlib>3.7.1",
 	"seaborn>0.13.1",
 	"scipy>1.11.4",
     "tomli; python_version < '3.11'",
 ]
-requires-python = ">=3.11.3"
+requires-python = ">=3.10.12"
 
 [project.optional-dependencies]
 dev = ["pip-tools", "pytest"]
 
 [tool.setuptools]
-# ...
-# By default, include-package-data is true in pyproject.toml, so you do
-# NOT have to specify this line.
+
 include-package-data = true
 
 [tool.setuptools.packages.find]
